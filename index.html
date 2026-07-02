@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Reino dos Tigres</title>
 
-    <link rel="stylesheet" href="style.css">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tiger World</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
 <div class="overlay">
 
-<h1>🐅 O Reino dos Tigres 🐅</h1>
+<h1>🐅 Tiger World 🐅</h1>
 
-<p class="texto">
-Os tigres são símbolos de força, independência e inteligência.
-Vivem em florestas, montanhas e regiões geladas da Ásia.
-Cada tigre possui listras únicas, como uma impressão digital.
+<p>
+Bem-vindo ao lar do maior felino do planeta.
+Descubra curiosidades, conheça as espécies
+e explore a floresta.
 </p>
 
 <img
 class="tiger"
-src="https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=900&q=80">
+src="https://images.pexels.com/photos/145939/pexels-photo-145939.jpeg"
+alt="Tigre">
 
-<div class="botoes">
+<div class="buttons">
 
-<button onclick="mostrarCuriosidade()">
+<button onclick="curiosidade()">
 📚 Curiosidade
 </button>
 
-<button onclick="mostrarForca()">
+<button onclick="forca()">
 💪 Força
 </button>
 
-<button onclick="mudarCor()">
+<button onclick="selva()">
 🌿 Modo Selva
 </button>
 
 </div>
 
-<p id="mensagem"></p>
+<div id="mensagem"></div>
 
 </div>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
 
